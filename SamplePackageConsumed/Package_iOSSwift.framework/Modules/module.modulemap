@@ -1,0 +1,11 @@
+framework module Package_iOSSwift {
+  umbrella header "Package_iOSSwift.h"
+  export *
+
+  module * { export * }
+}
+
+module Package_iOSSwift.Swift {
+  header "Package_iOSSwift-Swift.h"
+  requires objc
+}
